@@ -1,10 +1,9 @@
-/*const image1 = new Image();
+var image1 = new Image();
 image1.src = 'Images/me.jpg';
-const image2 = new Image();
+var image2 = new Image();
 image2.src = 'Images/akl1.jpg';
-const image3 = new Image();
+var image3 = new Image();
 image3.src = 'Images/akl2.jpg';
-*/
 
 
 var background_img = document.querySelector(".nick-background");
