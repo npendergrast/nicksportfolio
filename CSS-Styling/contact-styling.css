@@ -94,20 +94,20 @@ textarea {
     left: 50%;
     bottom: -50%;
     transform: translate(-50%, -50%);
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 20px;
     background-color:  rgb(90, 131, 158);
     color: rgb(233, 233, 233);
     text-align: center;
-    border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
     width: 220px;
     font-family: 'Roboto', sans-serif;
-    transition: 1.5s;
+    transition: 1s;
 }
 
 .slide-up {
-    bottom: 10%;
-    transition: 1.5s;
+    bottom: -55px;
+    transition: 1s;
     display: inline-block;
 }
 
@@ -115,8 +115,5 @@ textarea {
     .contact-form {
         width: 90%;
         margin: auto;
-    }
-    .slide-up {
-        bottom: 2%;
     }
 }
